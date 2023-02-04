@@ -22,7 +22,7 @@ type Message struct {
 	Item               []Item               `json:"Item"`
 	ItemPricingElement []ItemPricingElement `json:"ItemPricingElement"`
 	ItemScheduleLine   []ItemScheduleLine   `json:"ItemScheduleLine"`
-	Address            Address              `json:"Address"`
+	Address            []Address            `json:"Address"`
 	Partner            []Partner            `json:"Partner"`
 }
 

@@ -23,8 +23,8 @@
       "BillFromCountry": null,
       "Payer": 101,
       "Payee": 101,
-      "CreationDate": "2023-01-30",
-      "LastChangeDate": "2023-01-30",
+      "CreationDate": "2023-02-03",
+      "LastChangeDate": "2023-02-03",
       "ContractType": null,
       "OrderValidityStartDate": null,
       "OrderValidityEndDate": null,
@@ -80,8 +80,8 @@
         "RequestedDeliveryDate": "2022-12-12",
         "DeliverToParty": 101,
         "DeliverFromParty": 101,
-        "CreationDate": "2023-01-30",
-        "LastChangeDate": "2023-01-30",
+        "CreationDate": "2023-02-03",
+        "LastChangeDate": "2023-02-03",
         "DeliverToPlant": null,
         "DeliverToPlantTimeZone": null,
         "DeliverToPlantStorageLocation": null,
@@ -183,8 +183,8 @@
         "RequestedDeliveryDate": "2022-12-12",
         "DeliverToParty": 101,
         "DeliverFromParty": 101,
-        "CreationDate": "2023-01-30",
-        "LastChangeDate": "2023-01-30",
+        "CreationDate": "2023-02-03",
+        "LastChangeDate": "2023-02-03",
         "DeliverToPlant": null,
         "DeliverToPlantTimeZone": null,
         "DeliverToPlantStorageLocation": null,
@@ -356,19 +356,21 @@
         "ItemScheduleLineDeliveryBlockStatus": null
       }
     ],
-    "Address": {
-      "OrderID": 1,
-      "AddressID": 0,
-      "PostalCode": null,
-      "LocalRegion": null,
-      "Country": null,
-      "District": null,
-      "StreetName": null,
-      "CityName": null,
-      "Building": null,
-      "Floor": null,
-      "Room": null
-    },
+    "Address": [
+      {
+        "OrderID": 1,
+        "AddressID": 0,
+        "PostalCode": null,
+        "LocalRegion": null,
+        "Country": null,
+        "District": null,
+        "StreetName": null,
+        "CityName": null,
+        "Building": null,
+        "Floor": null,
+        "Room": null
+      }
+    ],
     "Partner": [
       {
         "OrderID": 1,

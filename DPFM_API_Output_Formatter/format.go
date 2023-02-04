@@ -152,7 +152,8 @@ func ConvertToItemScheduleLine(
 func ConvertToAddress(
 	sdc dpfm_api_input_reader.SDC,
 	psdc dpfm_api_processing_formatter.SDC,
-) (*Address, error) {
+) (*[]Address, error) {
+	var addresses []Address
 	mappingAddress := psdc.MappingAddress
 	conversionData := psdc.ConversionData
 
@@ -173,8 +174,9 @@ func ConvertToAddress(
 			break
 		}
 	}
+	addresses = append(addresses, address)
 
-	return &address, nil
+	return &addresses, nil
 }
 
 func ConvertToPartner(

@@ -15,7 +15,7 @@ func (c *ConvertComplementer) SetValue(
 	var item *[]dpfm_api_output_formatter.Item
 	var itemPricingElement *[]dpfm_api_output_formatter.ItemPricingElement
 	var itemScheduleLine *[]dpfm_api_output_formatter.ItemScheduleLine
-	var address *dpfm_api_output_formatter.Address
+	var address *[]dpfm_api_output_formatter.Address
 	var partner *[]dpfm_api_output_formatter.Partner
 	var err error
 
